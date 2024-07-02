@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #1e1d35;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid black 3px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 180px; /* Ajustado para acomodar 5 colunas */
+}
+
+.footer-section.middle {
+    margin: 10px 20px; /* Define um maior espaçamento nas seções do meio */
+}
+
+.footer-section.right {
+    margin-left: auto; /* Alinha à direita */
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza horizontalmente as imagens */
+    margin-bottom: 10px;
+    height: 100px; /* Ajuste conforme necessário */
+}
+
+.logo img {
+    vertical-align: middle;
+    margin-right: 10px; /* Espaçamento entre logos */
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#LogoSite {
+    margin-top: 130px;
+    height: 150px;
+    width: auto;
+}
+
+#LogoAgrinho {
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+}
+
+.social-buttons {
+    margin-top: 10px;
+}
+
+.social-buttons a {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+
+.social-buttons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+
+.btn-topo {
+    color: #fff;
+    padding: 5px; /* Ajuste do padding para botões menores */
+    border-radius: 5px;
+    text-decoration: none;
+    width: 160px; /* Largura fixa dos botões */
+    margin-bottom: 5px; /* Espaçamento entre os botões */
+    display: block; /* Para que cada botão ocupe toda a largura disponível */
+    font-size: 0.8em; /* Redução do tamanho da fonte */
+}
+
+.btn-topo:hover {
+    color: yellow;
+    transition: .3s;
+
+}
+
+#Atalhos {
+    margin-bottom: 20px;
+}
